@@ -8,7 +8,7 @@ except:
         API_HASH = "c3e3bdcaf3486d3222dcff67a6ea9a77"
         API_ID = "1600667"
         BOT_TOKEN = "1540012230:AAGPUnIgp4Ppwd6lqjb2zJ2R8-TUn2VRjjc"
-        BASE_URL_OF_BOT = "https://gautamleecherbot.herokuapp.com/"
+        BASE_URL_OF_BOT = "https://gautamleecherbot.herokuapp.com"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1030989359,-1001206349958]
         
@@ -31,7 +31,7 @@ except:
         DB_URI = "postgres://abdzbgwltfziwy:016aea57b883362ef1305b5d340f2ea83dcdf4e958e71f5cedbb020a72b5d81f@ec2-54-157-234-29.compute-1.amazonaws.com:5432/d8j8aptt91frmi"
         
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/Bot Uploads/Leech Bot"
+        RCLONE_BASE_DIR = ""
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -54,7 +54,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 200
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 30
+        MAX_TORRENT_SIZE = 60
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
