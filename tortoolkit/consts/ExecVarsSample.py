@@ -28,7 +28,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgres://abdzbgwltfziwy:016aea57b883362ef1305b5d340f2ea83dcdf4e958e71f5cedbb020a72b5d81f@ec2-54-157-234-29.compute-1.amazonaws.com:5432/d8j8aptt91frmi"
+        DB_URI = "postgres://hrviabdqevjdzt:d71616b0344d7215814fcb4293d1fb3cc80220b3b15afdd48cd4106e75c8b4ab@ec2-3-215-207-12.compute-1.amazonaws.com:5432/d8d6i19hu4te7c"
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = ""
