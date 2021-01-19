@@ -5,15 +5,15 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = "c3e3bdcaf3486d3222dcff67a6ea9a77"
-        API_ID = "1600667"
-        BOT_TOKEN = "1540012230:AAGPUnIgp4Ppwd6lqjb2zJ2R8-TUn2VRjjc"
-        BASE_URL_OF_BOT = "https://gautamleecherbot.herokuapp.com"
+        API_HASH = "b8982d0aceaaff4f23f49adac886c913"
+        API_ID = "1389234"
+        BOT_TOKEN = "1578011928:AAFIIw-pXSn1RyW8g-KD2RqfQXCfmvr3d5g"
+        BASE_URL_OF_BOT = "https://rhqbit.herokuapp.com"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [1030989359,-1001206349958]
+        ALD_USR = [1304152521,-1001319419576,-1001352599350]
         
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 25
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1800000000
@@ -59,7 +59,7 @@ except:
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
         USER_CAP_ENABLE = False
-        USER_CAP_LIMIT = [50,10,2]
+        USER_CAP_LIMIT = [30,10,2]
 
         # No need to worry about these
         # CHANGE THESE AT YOUR RISK
