@@ -11,7 +11,7 @@ Direct Clone and Run
 
 Run the following commands. (Following commands can be used to setup the vps from scratch)
    
-    git clone https://github.com/yash-dk/TorToolkit-Telegram.git
+    git clone https://github.com/afjal-sharif/qBit-TorTool-Kit.git
     sudo apt update
     sudo apt install -y python3.8
     sudo apt install -y python3-venv
