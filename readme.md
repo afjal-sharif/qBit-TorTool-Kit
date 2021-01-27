@@ -54,6 +54,9 @@ And finally run ./start.sh in clonned folder.
 
     chmod 777 start.sh
     ./start.sh
+#DOCKER Deploy
+	sudo docker build . -t qbit
+	sudo docker run qbit
 
 ## Variables
 `IS_VPS` = False
